@@ -1,4 +1,4 @@
-var animal = 'dog'
+var animal = ('dog','cat')
 
 function myAnimal(string) {
   return animal
@@ -8,7 +8,6 @@ function yourAnimal(string) {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  var animal = "cat";
   return animal;
 }
 
